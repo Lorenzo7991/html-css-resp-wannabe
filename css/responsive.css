@@ -2,11 +2,31 @@
 @media screen and (max-width: 768px) {
     .container{
         width: 768px;
-        padding: 0;
     }
-    
+}
+
+/** fixing 576px viewport  */
+@media screen and (max-width: 576px){
+
+    .container{
+        width: 576px;
+    }
+
     h1{
-        padding-left: 30px;
+        font-size: 3.5rem;
+        margin: 0 1.5rem 3rem 1.5rem;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
+        width: 100%;
+    }
+
+    .text{
+        margin: 0 100px;
     }
 
 }
