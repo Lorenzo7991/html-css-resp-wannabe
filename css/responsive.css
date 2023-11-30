@@ -12,14 +12,32 @@
         width: 576px;
     }
 
-    h1{
-        font-size: 3.5rem;
-        margin: 0 1.5rem 3rem 1.5rem;
+    .why-us .container, .why-us{
+        background-color: rgb(34, 34, 34);
+        margin-bottom: 0;
+        padding-bottom: 30px;
     }
+
+    .steps{
+        margin: 0;
+    }
+
+    h2{
+        font-size: 3rem;
+        padding-top: 30px;
+    }
+
+    h1{
+        font-size: 3.9rem;
+        margin: 0 1.5rem 1rem 1.5rem;
+        
+    }
+    
     .row{
         display: flex;
         flex-direction: column;
         gap: 30px;
+        margin-bottom: 3rem;
     }
     .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
         width: 100%;
