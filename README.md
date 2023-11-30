@@ -34,10 +34,10 @@ Per poter vedere correttamente un sito responsive è necessaria l'aggiunta del t
 ---
 ## **`Immagini traccia:`**
 ---
-![ Desktop-screenshot ](/assets/img/img-rdm/desktop.png "Desktop View")
+![ Desktop-screenshot ](img/img-rdm/desktop.png "Desktop View")
 ---
 ---
-![ Tablet-screenshot ](/assets/img/img-rdm/Tablet-768.png "Tablet View")
+![ Tablet-screenshot ](img/img-rdm/Tablet-768.png "Tablet View")
 ---
 ---
-![ Mobile-screenshot ](/assets/img/img-rdm/Mobile-576.png "Mobile View")
+![ Mobile-screenshot ](img/img-rdm/Mobile-576.png "Mobile View")
