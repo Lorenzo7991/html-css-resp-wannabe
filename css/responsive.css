@@ -18,19 +18,18 @@
         padding-bottom: 30px;
     }
 
-    .steps{
-        margin: 0;
-    }
-
+    
     h2{
         font-size: 3rem;
         padding-top: 30px;
     }
-
+    
     h1{
         font-size: 3.9rem;
         margin: 0 1.5rem 1rem 1.5rem;
-        
+    }
+    .steps{
+        margin: 0;
     }
     
     .row{
