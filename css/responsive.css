@@ -1,49 +1,40 @@
 /** fixing 768px viewport */
-@media screen and (max-width: 768px) {
-    .container{
-        width: 768px;
-    }
+.container{
+    width: 100%;
+    max-width: 1140px;
 }
+
+
 
 /** fixing 576px viewport  */
 @media screen and (max-width: 576px){
-
-    .container{
-        width: 576px;
-    }
-
-    .why-us .container, .why-us{
-        background-color: rgb(34, 34, 34);
-        margin-bottom: 0;
-        padding-bottom: 30px;
-    }
-
-    
-    h2{
-        font-size: 3rem;
-        padding-top: 30px;
-    }
-    
-    h1{
-        font-size: 3.9rem;
-        margin: 0 1.5rem 1rem 1.5rem;
-    }
-    .steps{
-        margin: 0;
-    }
-    
     .row{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        margin-bottom: 3rem;
+        flex-wrap: wrap;
+        row-gap: 4rem;
     }
-    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
+
+    .row .col{
         width: 100%;
     }
 
-    .text{
-        margin: 0 100px;
+    .why-us{
+        background-color: #222;
+        padding: 3.5rem 0;
+    }
+
+    .steps,
+    .why-us,
+    .lessons {
+        margin-bottom: 0;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    h2{
+        font-size: 3rem;
+        padding-top: 1rem;
     }
 
 }
